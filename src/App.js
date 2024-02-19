@@ -1,16 +1,14 @@
-import './App.css';
-import Info from './Components/Info';
-import Home from './Components/Home';
 
-
+import ColorPicker from './Components/Colorpicker';
 
 
 function App() {
   return (
 
 <>
-<Info/>
-<Home/>
+
+
+<ColorPicker/>
 </>
 
   );

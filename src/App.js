@@ -1,6 +1,7 @@
 
-import ColorPicker from './Components/Colorpicker';
+import Colorpicker from './Components/Colorpicker';
 import User from './Components/User';
+import Temp from './Components/Temp';
 
 
 
@@ -8,9 +9,11 @@ function App() {
   return (
 
 <>
-<ColorPicker/>
+<Colorpicker/>
 <User name="Pranshu"
  adress="Rewa"/>
+ <Temp/>
+ 
 </>
 
   )

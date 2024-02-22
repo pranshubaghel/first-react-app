@@ -2,6 +2,8 @@
 import Colorpicker from './Components/Colorpicker';
 import User from './Components/User';
 import Temp from './Components/Temp';
+import Api from './Components/Api';
+import Mainlanguage from './Components/Mainlanguage';
 
 
 
@@ -13,6 +15,8 @@ function App() {
 <User name="Pranshu"
  adress="Rewa"/>
  <Temp/>
+ <Api/>
+ 
  
 </>
 
